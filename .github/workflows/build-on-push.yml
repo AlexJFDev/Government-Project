@@ -1,4 +1,4 @@
-name: build on bush
+name: build on push
 on: [push]
 jobs:
 
@@ -13,6 +13,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         script: |
+          export PATH="$PATH:/home/githubactioner/.nvm/versions/node/v19.9.0/bin/"
           cd /home/githubactioner/Government-Project
           git pull
           yarn install
