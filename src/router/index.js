@@ -35,8 +35,20 @@ const routes = [
     path: '/the-opportunities-and-challenges-of-ai',
     name: 'the-opportunities-and-challenges-of-ai',
     component: () => import('../views/TheOpportunitiesAndChallengesOfAIView.vue'),
-    meta: {title: 'The Opportunities and Chellenges of AI - Government and AI'}
+    meta: {title: 'The Opportunities and Challenges of AI - Government and AI'}
   },
+  {
+    path: '/conclusions',
+    name: 'conclusions',
+    component: () => import('../views/Conclusions.vue'),
+    meta: {title: 'Conclusions - Government and AI'}
+  },
+  {
+    path: '/citations',
+    name: 'citations',
+    component: () => import('../views/Citations.vue'),
+    meta: {title: 'Citations - Government and AI'}
+  }
 ]
 
 const router = createRouter({
