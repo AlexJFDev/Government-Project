@@ -13,10 +13,16 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         script: |
+          echo ***Updating Path***
           export PATH="$PATH:/home/githubactioner/.nvm/versions/node/v19.9.0/bin/"
+          echo ***Moving to Project Repo***
           cd /home/githubactioner/Government-Project
+          echo ***Pulling***
           git pull
+          echo ***Installing Node Modules***
           yarn install
+          echo ***Building Project***
           yarn build
+          echo ***Updating Webpages***
           rm -rf /var/www/html
           cp -rT /home/githubactioner/Government-Project/dist /var/www/html
