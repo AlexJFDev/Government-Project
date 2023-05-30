@@ -1,5 +1,18 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <img alt="Vue logo" src="../assets/logo.png">
+    <HomePage msg="About Page"/>
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import HomePage from '@/components/HomePage.vue'
+
+export default {
+  name: 'HomeView',
+  components: {
+    HomePage
+  }
+}
+</script>
