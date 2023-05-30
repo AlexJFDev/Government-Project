@@ -1,4 +1,4 @@
-# government-project
+# Government-Project
 
 ## Project setup
 Install vue with: npm install -g @vue/cli
