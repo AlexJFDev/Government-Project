@@ -1,6 +1,7 @@
 # government-project
 
 ## Project setup
+Install vue with: npm install -g @vue/cli
 ```
 yarn install
 ```
