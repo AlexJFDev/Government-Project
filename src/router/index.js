@@ -20,16 +20,16 @@ const routes = [
     meta: {title: 'AI Ethics - Government and AI'}
   },
   {
-    path: '/the-current-impact-of-ai',
-    name: 'the-current-impact-of-ai',
-    component: () => import('../views/TheCurrentImpactOfAI.vue'),
-    meta: {title: 'The Current Impact Of AI - Government and AI'}
+    path: '/the-present-impact-of-ai',
+    name: 'the-present-impact-of-ai',
+    component: () => import('../views/ThePresentImpactOfAI.vue'),
+    meta: {title: 'The Present Impact Of AI - Government and AI'}
   },
   {
-    path: '/the-future-impact-of-ai',
-    name: 'the-future-impact-of-ai',
-    component: () => import('../views/TheFutureImpactOfAI.vue'),
-    meta: {title: 'The Future Impact Of AI - Government and AI'}
+    path: '/the-impact-of-ai-on-employment',
+    name: 'the-impact-of-ai-on-employment',
+    component: () => import('../views/TheImpactOfAIOnEmployment.vue'),
+    meta: {title: 'The Impact of AI on Employment - Government and AI'}
   },
   {
     path: '/the-opportunities-and-challenges-of-ai',
