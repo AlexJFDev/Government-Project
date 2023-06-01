@@ -1,12 +1,12 @@
 <template>
   <v-card>
     <v-layout>
+      <SideBar/>
       <v-app-bar>
         <template v-slot:title>
           <slot name="title"></slot>
         </template>
       </v-app-bar>
-      <SideBar/>
       <v-main style="min-height: 300px;">
         <slot name="main"></slot>
       </v-main>
