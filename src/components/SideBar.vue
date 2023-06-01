@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer>
+  <v-navigation-drawer permanent>
     <v-list>
       <v-list-item prepend-icon="mdi-home" title="Home" to="/"></v-list-item>
       <v-list-item prepend-icon="mdi-hammer-wrench" title="How AI Works" to="/how-ai-works"></v-list-item>
