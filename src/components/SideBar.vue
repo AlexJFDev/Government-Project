@@ -13,7 +13,7 @@
   </v-navigation-drawer>
 </template>
 <script>
-    export default {
-        name: 'SideBar'
-    }
+  export default {
+    name: 'SideBar'
+  }
 </script>
