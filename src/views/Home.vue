@@ -3,7 +3,7 @@
     <template v-slot:title>Home</template>
     <template v-slot:main>
       <div class="home">
-          <img alt="Vue logo" src="../assets/logo.png">
+        <img alt="Vue logo" src="../assets/logo.png">
         <h1>The US Government and AI</h1>
         <p>How will AI influence the US government?</p>
         <p>To learn more, explore this website with the sidebar on the left.</p>
