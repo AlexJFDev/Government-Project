@@ -14,9 +14,9 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         script: |
           echo ***Updating Path***
-          export PATH="$PATH:/home/githubactioner/.nvm/versions/node/v19.9.0/bin/"
+          export PATH="$PATH:~/.nvm/versions/node/v19.9.0/bin/"
           echo ***Moving to Project Repo***
-          cd /home/githubactioner/Government-Project
+          cd ~/Government-Project
           echo ***Pulling***
           git pull
           echo ***Installing Node Modules***
@@ -25,4 +25,4 @@ jobs:
           yarn build
           echo ***Updating Webpages***
           rm -rf /var/www/html
-          cp -rT /home/githubactioner/Government-Project/dist /var/www/html
+          cp -rT ~/Government-Project/dist /var/www/html
