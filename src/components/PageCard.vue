@@ -27,7 +27,4 @@
   .v-app-bar {
     text-align: center;
   }
-  .SideBar {
-    text-align: center;
-  }
 </style>
