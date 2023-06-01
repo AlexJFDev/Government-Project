@@ -19,6 +19,11 @@
     name: 'HomeView',
     components: {
       PageCard
+    },
+    mounted() {
+      if (window.innerWidth < 650) {
+        alert("This website may not display correctly on smaller screens")
+      }
     }
   }
 </script>
