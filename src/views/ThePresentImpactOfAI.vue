@@ -1,7 +1,7 @@
 <template>
     <div>
         <PageCard>
-            <template v-slot:title>The Current Impact of AI</template>
+            <template v-slot:title>The Present Impact of AI</template>
             <template v-slot:main></template>
         </PageCard>
     </div>
@@ -10,7 +10,7 @@
     import PageCard from '@/components/PageCard.vue'
 
     export default {
-        name: 'TheCurrentImpactOfAI',
+        name: 'ThePresentImpactOfAI',
         components: {
             PageCard
         }
