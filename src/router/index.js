@@ -10,31 +10,31 @@ const routes = [
   {
     path: '/how-ai-works',
     name: 'how-ai-works',
-    component: () => import('../views/HowAIWorksView.vue'),
+    component: () => import('../views/HowAIWorks.vue'),
     meta: {title: 'How AI Works - Government and AI'}
   },
   {
     path: '/ai-ethics',
     name: 'ai-ethics',
-    component: () => import('../views/AIEthicsView.vue'),
+    component: () => import('../views/AIEthics.vue'),
     meta: {title: 'AI Ethics - Government and AI'}
   },
   {
     path: '/the-current-impact-of-ai',
     name: 'the-current-impact-of-ai',
-    component: () => import('../views/TheCurrentImpactOfAIView.vue'),
+    component: () => import('../views/TheCurrentImpactOfAI.vue'),
     meta: {title: 'The Current Impact Of AI - Government and AI'}
   },
   {
     path: '/the-future-impact-of-ai',
     name: 'the-future-impact-of-ai',
-    component: () => import('../views/TheFutureImpactOfAIView.vue'),
+    component: () => import('../views/TheFutureImpactOfAI.vue'),
     meta: {title: 'The Future Impact Of AI - Government and AI'}
   },
   {
     path: '/the-opportunities-and-challenges-of-ai',
     name: 'the-opportunities-and-challenges-of-ai',
-    component: () => import('../views/TheOpportunitiesAndChallengesOfAIView.vue'),
+    component: () => import('../views/TheOpportunitiesAndChallengesOfAI.vue'),
     meta: {title: 'The Opportunities and Challenges of AI - Government and AI'}
   },
   {

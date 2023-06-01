@@ -1,7 +1,7 @@
 <template>
     <div>
         <PageCard>
-            <template v-slot:title>Conclusions</template>
+            <template v-slot:title>AI Ethics</template>
             <template v-slot:main></template>
         </PageCard>
     </div>
@@ -10,7 +10,7 @@
     import PageCard from '@/components/PageCard.vue'
 
     export default {
-        name: 'Conclusions',
+        name: 'AIEthics',
         components: {
             PageCard
         }
