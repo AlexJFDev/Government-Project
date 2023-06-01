@@ -16,7 +16,7 @@
         <v-list-item title="The Impact of AI on Employment" subtitle="What impact have AI systems had on public and private organizations so far?"/>
         <v-list-item title="The Opportunities and Challenges of AI" subtitle="What opportunities and challenges do AI systems bring to the government bureaucracy?"/>
       </v-list>
-      <p>You can find more of my research <a href="https://drive.google.com/drive/folders/1056YVDs8vVg3iu_WKy-rTZVaKr9miUx2?usp=sharing">here</a> and the git repo for this website is <a href="https://github.com/AlexJFDev/Government-Project">here</a>.</p>
+      <p>My research documents can be found <a href="https://drive.google.com/drive/folders/1056YVDs8vVg3iu_WKy-rTZVaKr9miUx2?usp=sharing">here</a> and the source code and documentation of this website is in <a href="https://github.com/AlexJFDev/Government-Project">this git repo</a>.</p>
     </template>
   </PageCard>
 </template>
