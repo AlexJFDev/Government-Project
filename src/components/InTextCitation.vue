@@ -17,7 +17,7 @@
 </script>
 <style>
   .citation {
-    color: #2c3e50;
+    color: #2261a0;
     font-size: small;
     text-decoration: none;
   }
