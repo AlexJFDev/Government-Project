@@ -5,8 +5,8 @@
       <div class="home">
         <img alt="Vue logo" src="../assets/logo.png">
         <h1>The US Government and AI</h1>
-        <p>How will AI influence the US government?</p>
-        <p>To learn more, explore this website with the sidebar on the left. </p>
+        <h3>How will AI influence the US government?</h3>
+        <h3>To learn more, explore this website using the sidebar on the left.</h3>
       </div>
       <p>To assist in my research on this topic I identified the following 5 research areas: how AI works, AI ethics, the present impact of AI, the impact of AI on employment, and the opportunities and challenges of AI. Then, for each research area, I identified a research question that I could use to assist in my research.</p>
       <v-list>
