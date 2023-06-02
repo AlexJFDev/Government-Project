@@ -20,5 +20,6 @@
     color: #2261a0;
     font-size: small;
     text-decoration: none;
+    vertical-align: super;
   }
 </style>
