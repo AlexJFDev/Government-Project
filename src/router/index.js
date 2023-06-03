@@ -20,10 +20,10 @@ const routes = [
     meta: {title: 'AI Ethics - Government and AI'}
   },
   {
-    path: '/the-present-impact-of-ai',
-    name: 'the-present-impact-of-ai',
-    component: () => import('../views/ThePresentImpactOfAI.vue'),
-    meta: {title: 'The Present Impact Of AI - Government and AI'}
+    path: '/the-present-use-of-ai',
+    name: 'the-present-use-of-ai',
+    component: () => import('../views/ThePresentUseOfAI.vue'),
+    meta: {title: 'The Present Use Of AI - Government and AI'}
   },
   {
     path: '/the-impact-of-ai-on-employment',
